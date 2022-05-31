@@ -1,0 +1,23 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "model": "ts-node src/run.ts",
+    "tests": "ts-jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/lodash": "^4.14.182",
+    "@types/uuid": "^8.3.4",
+    "ts-jest": "^28.0.3"
+  }
+}
