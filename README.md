@@ -16,6 +16,8 @@ The *Footprint* of a transaction is the transaction's `amount` multiplied by its
 footprint = transaction.amount * transaction.businessType.emissionsFactor
 ```
 
+In `src/model.ts`, the `applyCarbonModel` takes a list of transactions and business types, and returns a new list of transactions, which each have an additional `footprint` property added.
+
 ## Getting started for development
 
 ### Installation
